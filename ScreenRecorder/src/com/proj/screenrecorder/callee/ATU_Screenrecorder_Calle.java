@@ -26,6 +26,7 @@ public class ATU_Screenrecorder_Calle {
 		driver.findElement(By.id("btnLogin")).click();
 		
 		driver.quit();
-		ScreenRecorder_ATU.stopRecorder();	}
+		ScreenRecorder_ATU.stopRecorder();	
+		}
 
 }
